@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    
+    --color-backdrop: hsl(var(--color-gray-700) / 0.8);
+    
+    /* weights */
+    --weights-normal:500;
+    --weights-medium:600;
+    --weights-bold:800;
+    
+    --reach-dialog: 1;
+    
+  }
+
+  body{
+    font-family: 'Raleway', sans-serif;
+  }
