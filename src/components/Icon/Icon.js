@@ -17,7 +17,7 @@ function Icon({ id, color, size, strokeWidth, ...delegated }) {
   }
   const newStokeWidth = strokeWidth ? `stoke-${strokeWidth}` : `stoke-1`;
   return (
-    <div className={`${newStokeWidth}`} {...delegated}>
+    <div className={`${newStokeWidth} hover:scale-110`} {...delegated}>
       <Component color={color} size={size} />
     </div>
   );
