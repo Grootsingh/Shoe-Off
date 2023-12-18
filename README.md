@@ -2,7 +2,7 @@
 
 ## Visit the Site 🌐
 
-Ready to dive into the world of awesome shoes? Visit Shoe-off [here](#) 🛍️✨
+Ready to dive into the world of awesome shoes? Visit Shoe-off [here](https://shoe-off.vercel.app/) 🛍️✨
 
 ## About the Project
 
@@ -34,4 +34,4 @@ Styled with Tailwind CSS, our website is as responsive as your bestie. It doesn'
 
 ## Visit the Site 🌐
 
-Ready to dive into the world of awesome shoes? Visit Shoe-off [here](#) 🛍️✨
+Ready to dive into the world of awesome shoes? Visit Shoe-off [here](https://shoe-off.vercel.app/) 🛍️✨
