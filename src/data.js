@@ -1,8 +1,18 @@
+import img1 from "../public/assets/tech-challenge.jpg";
+import img2 from "../public/assets/metcon-5.jpg";
+import img3 from "../public/assets/phantom.jpg";
+import img4 from "../public/assets/pegasus.jpg";
+import img5 from "../public/assets/joyride.jpg";
+import img6 from "../public/assets/legend-academy.jpg";
+import img7 from "../public/assets/react-infinity.jpg";
+import img8 from "../public/assets/phantom-flyknit.jpg";
+import img9 from "../public/assets/lebron.jpg";
+
 const SHOES = [
   {
     slug: "tech-challenge",
     name: "NikeCourt Tech Challenge 20",
-    imageSrc: "../public/assets/tech-challenge.jpg",
+    imageSrc: img1,
     price: 16500,
     salePrice: null,
     // 1 hour ago! 🔥
@@ -12,7 +22,7 @@ const SHOES = [
   {
     slug: "metcon-5",
     name: "Nike Metcon 5 AMP",
-    imageSrc: "../public/assets/metcon-5.jpg",
+    imageSrc: img2,
     price: 16500,
     salePrice: null,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 2,
@@ -21,7 +31,7 @@ const SHOES = [
   {
     slug: "phantom",
     name: "Nike Phantom Vision",
-    imageSrc: "../public/assets/phantom.jpg",
+    imageSrc: img3,
     price: 16500,
     salePrice: null,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 4,
@@ -30,7 +40,7 @@ const SHOES = [
   {
     slug: "pegasus",
     name: "Nike Air Zoom Pegasus",
-    imageSrc: "../public/assets/pegasus.jpg",
+    imageSrc: img4,
     price: 16500,
     salePrice: null,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 16,
@@ -39,7 +49,7 @@ const SHOES = [
   {
     slug: "joyride",
     name: "Nike Joyride Dual Run",
-    imageSrc: "../public/assets/joyride.jpg",
+    imageSrc: img5,
     price: 17000,
     salePrice: null,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 40,
@@ -48,7 +58,7 @@ const SHOES = [
   {
     slug: "legend-academy",
     name: "Nike Tiempo Legend 8",
-    imageSrc: "../public/assets/legend-academy.jpg",
+    imageSrc: img6,
     price: 16500,
     salePrice: 12500,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 50,
@@ -57,7 +67,7 @@ const SHOES = [
   {
     slug: "react-infinity",
     name: "Nike React Infinity Pro",
-    imageSrc: "../public/assets/react-infinity.jpg",
+    imageSrc: img7,
     price: 16000,
     salePrice: 14500,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 75,
@@ -66,7 +76,7 @@ const SHOES = [
   {
     slug: "phantom-flyknit",
     name: "Nike React Phantom Run Flyknit 2",
-    imageSrc: "../public/assets/phantom-flyknit.jpg",
+    imageSrc: img8,
     price: 18500,
     salePrice: 16000,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 100,
@@ -75,7 +85,7 @@ const SHOES = [
   {
     slug: "lebron",
     name: "LeBron 17",
-    imageSrc: "../public/assets/lebron.jpg",
+    imageSrc: img9,
     price: 26000,
     salePrice: null,
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 120,

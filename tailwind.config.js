@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        shoe: "repeat(auto-fill, minmax(288px, 1fr))",
+      },
       keyframes: {
         slideIn: {
           "0%": {
@@ -29,7 +32,8 @@ module.exports = {
         navclamp: "clamp(1rem,9.2vw - 4.5rem,3.5rem)",
       },
       screens: {
-        sm: "0px",
+        xs: "0px",
+        "md+": "900px",
       },
       colors: {
         custom: {
@@ -39,7 +43,8 @@ module.exports = {
           "gray-300": "hsl(190deg 5% 80%)",
           "gray-500": "hsl(196deg 4% 60%)",
           "gray-700": "hsl(220deg 5% 40%)",
-          "gray-900": "hsl(220deg 3% 20%)",
+          "gray-900": "#111111",
+          "gray-1000": "hsl(220deg 3% 20%)",
         },
       },
     },
